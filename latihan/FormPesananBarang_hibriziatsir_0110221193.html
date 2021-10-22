@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Pesanan Barang</title>
+         <style>
+                 * {
+             margin: 0;
+             padding: 0;
+            }
+    </style>
+    <body>
+        <header style="width: 90%; border: 1px solid black; margin: 25px auto;">
+            <table>
+                <tr>
+                    <td style="padding: 10px 70px;">Beranda</td>
+                    <td style="padding: 10px 70px;">Link Generator</td>
+                    <td style="padding: 10px 70px;">Riwayat Transaksi</td>
+                    <td style="padding: 10px 70px;">Peraturan</td>
+                    <td style="padding: 10px 70px;">Log Out</td>
+                </tr>
+            </table>
+        </header>
+        <main style="display:flex;">
+            <div style="width: 30%; border: cyan; margin: 20px auto;">
+                <figure>
+                    <img src="laptop.jpg" alt="auto" width="210" height="210">
+                </figure>
+                <input type="submit" value="Unggah Gambar">
+            </div>
+            <div style="width: 80%; margin: 30px ;padding-right: 20px auto;">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Nama Barang</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Deskripsi</label></br>
+                            <textarea id="" cols="35" rows="15"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Nomor Akun</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Bank</label>
+                        <input type="text" list="bank">
+                        <datalist id="bank">
+                            <option value="Mandiri"></option>
+                            <option value="BRI"></option>
+                            <option value="BCA"></option>
+                            <option value="BNI"></option>
+                            <option value="BankMega"></option>
+                        </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label for="">Akun yang digunakan</label>
+                        <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Transaksi</label>
+                            <input type="number" min="1" max="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>* jika transaksi untuk 3 orang, pilih 3 bentuk daftar tenggelam</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <label for="">kirim ke handphone</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <label for="">kirim ke email</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for=""></label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Kirim ke Handphone</label>
+                            <input type="tel">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Kirim ke Email</label>
+                            <input type="email">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+    </head>
+</html>
